@@ -1,0 +1,25 @@
+.logo-img {
+    width: 80px;
+    margin: 0 0 0 30%;
+    opacity: 0.6;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s; 
+}
+
+.logo-img:hover{
+    opacity: 1;
+    transform: scale(1.03); 
+}
+
+.logo-img + span {
+    font-size: 14px;
+}
+
+.foot-logo img{
+    max-width: 120px !important;
+}
+
+.footer-widgets h2{
+    margin-bottom: 0 !important;
+}
+
