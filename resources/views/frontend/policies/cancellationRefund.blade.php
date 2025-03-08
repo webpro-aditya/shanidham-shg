@@ -1,3 +1,4 @@
+@php $classes = 'single-page'; @endphp
 @extends('layouts.user_type.guest')
 
 @section('page_title', __('Contact'))
