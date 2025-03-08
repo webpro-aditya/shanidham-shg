@@ -20,11 +20,17 @@
         <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
           <h2>Useful Links</h2>
           <ul>
-            <li><a href="{{ route('front.about') }}">About Us</a></li>
+
+            {{--<li><a href="{{ route('front.about') }}">About Us</a></li>
             <li><a href="{{ route('front.management') }}">Our Management</a></li>
             <li><a href="{{ route('front.products') }}">Our Products</a></li>
             <li><a href="{{ route('front.events') }}">Our Events</a></li>
-            <li><a href="{{ route('front.contact') }}">Contact Us</a></li>
+            <li><a href="{{ route('front.contact') }}">Contact Us</a></li>--}}
+
+            <li><a href="{{ route('page.termsAndConditions') }}">Terms & Conditions</a></li>
+            <li><a href="{{ route('page.privacyPolicy') }}">Privacy Policy</a></li>
+            <li><a href="{{ route('page.cancellationRefund') }}">Refund & Cancellation Policy</a></li>
+            <li><a href="{{ route('page.shippingDelivery') }}">Shipping & Delivery Policy</a></li>
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
