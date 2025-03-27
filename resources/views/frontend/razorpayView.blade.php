@@ -93,7 +93,7 @@
                                  data-amount="{{ $product->price * 100 }}" 
                                  data-currency="INR"
                                  data-buttontext="Proceed to Pay ₹{{ $product->price }}"
-                                 data-name="Rajbala SHG"
+                                 data-name="Shanidham SHG"
                                  data-description="Paying for {{ $product->name }}, Product Id: {{ $product->id }}"
                                  data-image="https://cybercollege.info/wp-content/uploads/2021/06/cropped-logo.png"
                                  data-prefill.name="name"
